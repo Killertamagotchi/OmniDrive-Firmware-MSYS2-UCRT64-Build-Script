@@ -25,8 +25,9 @@ A small helper script (available in English and German) to easily compile the **
 ### 🚀 Usage
 
 1. Download the build script files (`Run_Build_Omnidrive_(EN).bat` and `build_omnidrive_EN.sh`) into an empty folder of your choice.
-2. Double-click **`Run_Build_Omnidrive_(EN).bat`**.
-3. Follow the on-screen instructions in the terminal window. All required source repositories are cloned and built automatically.
+2. In the respective `.sh` file, change the download URL at the beginning to point to the stock firmware: `FIRMWARE_ARCHIVE_URL="INSERT_YOUR_DOWNLOAD_URL_HERE"`
+3. Double-click **`Run_Build_Omnidrive_(EN).bat`**.
+4. Follow the on-screen instructions in the terminal window. All required source repositories are cloned and built automatically.
 
 *(Alternatively, you can open the **MSYS2 UCRT64** terminal manually, navigate to the folder, and run `./build_omnidrive_EN.sh`.)*
 
@@ -60,8 +61,9 @@ Ein kleines Hilfsskript (verfügbar auf Deutsch und Englisch), um die **[OmniDri
 ### 🚀 Verwendung
 
 1. Lade die Skript-Dateien (`Run_Build_Omnidrive_(DE).bat` und `build_omnidrive_DE.sh`) in einen beliebigen leeren Ordner herunter.
-2. Starte die Datei **`Run_Build_Omnidrive_(DE).bat`** per Doppelklick.
-3. Folge den Anweisungen im Terminalfenster. Alle benötigten Quell-Repositories werden automatisch geklont und kompiliert.
+2. Ändere in der jeweiligen `.sh` am anfang die Download URL zu der Stock Firmware `FIRMWARE_ARCHIVE_URL="DEINE_DOWNLOAD_URL_HIER_EINFUEGEN"`
+3. Starte die Datei **`Run_Build_Omnidrive_(DE).bat`** per Doppelklick.
+4. Folge den Anweisungen im Terminalfenster. Alle benötigten Quell-Repositories werden automatisch geklont und kompiliert.
 
 *(Alternativ kannst du das **MSYS2 UCRT64**-Terminal manuell öffnen, in den Projektordner wechseln und `./build_omnidrive_DE.sh` ausführen.)*
 
