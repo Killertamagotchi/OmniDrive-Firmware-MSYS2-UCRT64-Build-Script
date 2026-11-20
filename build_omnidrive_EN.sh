@@ -5,6 +5,7 @@ trap 'echo ""; read -n 1 -s -r -p "Script finished. Press any key to close..."' 
 # CONFIGURATION
 # ==============================================================================
 # Replace the placeholder below with your direct download URL to the "stock_firmware.tar.gz" archive:
+# Example: FIRMWARE_ARCHIVE_URL="https://my-download-url.xyz/stock_firmware.tar.gz"
 FIRMWARE_ARCHIVE_URL="INSERT_YOUR_DOWNLOAD_URL_HERE"
 # ==============================================================================
 
