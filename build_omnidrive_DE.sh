@@ -7,7 +7,7 @@ trap 'echo ""; read -n 1 -s -r -p "Skript beendet. Taste drücken zum Schließen
 # KONFIGURATION
 # ==============================================================================
 # Ersetze den Platzhalter unten durch deine direkte Download-URL zum "stock_firmware.tar.gz" Archiv:
-FIRMWARE_ARCHIVE_URL="https://p64rs.free-for-all.net/omnidrive/stock_firmware.tar.gz"
+FIRMWARE_ARCHIVE_URL="DEINE_DOWNLOAD_URL_HIER_EINFUEGEN"
 # ==============================================================================
 
 # Verzeichnis ermitteln, in dem dieses Skript liegt
